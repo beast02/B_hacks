@@ -13,11 +13,11 @@
 </head>
 
 <body>
-  <div> <h1 class="edit-1"> File Upload widget  </h1></div>
-      <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <div class="file-upload">
-      <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Image</button>
-
+  
+   <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  
+    <div class="file-upload"  >
+     <div> <h1 class="edit-1"> File Upload widget  </h1></div>
       <div class="image-upload-wrap">
         <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
         <div class="drag-text">
@@ -30,7 +30,9 @@
           <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
         </div>
       </div>
-  </div>
+      <button class="file-upload-btn edit-2" type="button" onclick="$('.file-upload-input').trigger( 'click' )">DONE</button>
+ </div>
+  
 
   
   
